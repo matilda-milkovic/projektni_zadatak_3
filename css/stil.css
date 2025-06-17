@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "PMatildaMilkovic";
+    src: url("../font/PMatildaMilkovic.ttf");
+}
+
+nav ul {
+    padding: 20px;
+    margin: auto;
+    width: fit-content;
+}
+
+nav li {
+    display: inline;
+    background-color: LightCoral;
+    padding: 20px;
+    border: 2px solid IndianRed;
+}
+
+nav li:active {
+    background-color: IndianRed;
+}
+
+nav li a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+}
